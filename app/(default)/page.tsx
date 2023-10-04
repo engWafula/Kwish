@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Home',
+  description: 'We are committed to deepening ﬁnancial inclusion through technology and enabling shared prosperity. We are more than a company, Kwish Cash is beyond Banking.',
 }
 
 import Hero from '@/components/hero'
