@@ -8,13 +8,13 @@ export default function Header() {
   const menuItems = [
     { title: "Home", link: "/" },
     { title: "About Us", link: "/about" },
-    { title: "Services", link: "/services" },
+    { title: "Blog", link: "/blog" },
     { title: "Contact Us", link: "/contact" },
   ];
 
 
   return (
-    <header className="absolute w-full z-30">
+    <header className=" fixed top-0 bg-[#151719] w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
@@ -33,14 +33,14 @@ export default function Header() {
           <li key={index}>
             <Link
               href={menuItem.link}
-              className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+              className="font-medium text- hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
             >
               {menuItem.title}
             </Link>
           </li>
         ))}
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3  rounded-full">
+                <Link href="/signup" className="btn-sm text-white  bg-[#252262] hover:bg-purple-700 ml-3  rounded-full">
                   GET STARTED
                 </Link>
               </li>

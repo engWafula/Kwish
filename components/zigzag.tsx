@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import customer from '@/public/images/customer.jpeg'
+import customer from '@/public/images/lady.png'
 import card from '@/public/images/card.jpeg'
 import FeatImage03 from '@/public/images/features-03-image-03.png'
 
@@ -18,7 +18,7 @@ export default function Zigzag() {
           </div>
 
           {/* Items */}
-          <div className="grid gap-20">
+          <div className="grid gap-20 ">
 
 
 
@@ -35,7 +35,7 @@ export default function Zigzag() {
                     <li className="flex items-center mb-4">
                       <div>
                         <svg className="w-16 h-16 mr-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                          <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                          <rect className="fill-current text-[#252262]" width="64" height="64" rx="32" />
                           <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
                             <path className="stroke-current text-purple-100" d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6" />
                             <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
@@ -45,7 +45,7 @@ export default function Zigzag() {
 
                       </div>
                       <div>
-                        <h2 className="text-lg font-semibold text-purple-600">
+                        <h2 className="text-lg font-semibold text-[#252262]">
                           User Friendly</h2>
                         <span className=" text-sm text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 
@@ -58,7 +58,7 @@ export default function Zigzag() {
                     <li className="flex items-center mb-4">
                       <div>
                         <svg className="w-16 h-16 mr-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                          <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                          <rect className="fill-current text-[#252262]" width="64" height="64" rx="32" />
                           <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
                             <path className="stroke-current text-purple-100" d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6" />
                             <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
@@ -66,7 +66,7 @@ export default function Zigzag() {
                         </svg>
                       </div>
                       <div>
-                        <h2 className="text-lg font-semibold text-purple-600">Best Customer Support</h2>
+                        <h2 className="text-lg font-semibold text-[#252262]">Best Customer Support</h2>
                         <span className=" text-sm text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 
                         </span>
@@ -75,7 +75,7 @@ export default function Zigzag() {
                     <li className="flex items-center mb-4">
                       <div>
                         <svg className="w-16 h-16 mr-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                          <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                          <rect className="fill-current text-[#252262]" width="64" height="64" rx="32" />
                           <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
                             <path className="stroke-current text-purple-100" d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6" />
                             <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
@@ -83,7 +83,7 @@ export default function Zigzag() {
                         </svg>
                       </div>
                       <div>
-                        <h2 className="text-lg font-semibold text-purple-600">Secure</h2>
+                        <h2 className="text-lg font-semibold text-[#252262]">Secure</h2>
                         <span className=" text-sm text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 
                         </span>
@@ -107,7 +107,7 @@ export default function Zigzag() {
                   <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                   <div data-aos="fade-up" data-aos-delay="400">
-            <a className="btn text-white bg-purple-600 rounded-full hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get started</a>
+            <a className="btn text-white bg-[#252262] rounded-full hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get started</a>
           </div>
                   </ul>
                 </div>

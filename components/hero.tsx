@@ -19,7 +19,7 @@ export default function Hero() {
               company, Kwish Cash is beyond Banking.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 rounded-full hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get started</a>
+                <a className="btn text-white bg-[#252262] rounded-full hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get started</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 rounded-full" href="#0">Contact Us</a>
@@ -28,7 +28,7 @@ export default function Hero() {
           </div>
 
           {/* Illustration (image) on the right */}
-          <div className="md:w-1/2 md:pl-8 md:pr-4">
+          <div className="hidden md:block lg:block md:w-1/2 md:pl-8 md:pr-4">
             <img
               src="https://templatekit.jegtheme.com/izpay/wp-content/uploads/sites/30/2020/12/home-img-big@2x-e1609121743866.png" // Replace with your image source
               alt="Illustration" // Provide an appropriate alt text

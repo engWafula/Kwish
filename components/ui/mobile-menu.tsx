@@ -34,7 +34,7 @@ export default function MobileMenu() {
   const menuItems = [
     { title: "Home", link: "/" },
     { title: "About Us", link: "/about" },
-    { title: "Services", link: "/services" },
+    { title: "Services", link: "/blog" },
     { title: "Contact Us", link: "/contact" },
   ];
 
@@ -72,7 +72,7 @@ export default function MobileMenu() {
           <li key={index}>
             <Link
               href={menuItem.link}
-              className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+              className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
             >
               {menuItem.title}
             </Link>
@@ -81,7 +81,7 @@ export default function MobileMenu() {
           <li>
             <Link
               href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-full text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
+              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-full text-white bg-[#252262] hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
               GET STARTED
             </Link>
