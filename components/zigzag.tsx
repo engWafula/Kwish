@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import customer from '@/public/images/lady.png'
-import card from '@/public/images/card.jpeg'
+import card from '@/public/images/card.png'
 import FeatImage03 from '@/public/images/features-03-image-03.png'
 
 export default function Zigzag() {
