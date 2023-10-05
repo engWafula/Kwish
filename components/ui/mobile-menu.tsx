@@ -34,7 +34,7 @@ export default function MobileMenu() {
   const menuItems = [
     { title: "Home", link: "/" },
     { title: "About Us", link: "/about" },
-    { title: "Services", link: "/blog" },
+    { title: "Blog", link: "/blog" },
     { title: "Contact Us", link: "/contact" },
   ];
 

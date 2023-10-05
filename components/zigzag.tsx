@@ -45,9 +45,9 @@ export default function Zigzag() {
 
                       </div>
                       <div>
-                        <h2 className="text-lg font-semibold text-[#252262]">
+                        <h2 className="text-lg font-semibold text-white">
                           User Friendly</h2>
-                        <span className=" text-sm text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                        <span className=" text-sm text-gray-400">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 
                         </span>
                       </div>
@@ -66,8 +66,8 @@ export default function Zigzag() {
                         </svg>
                       </div>
                       <div>
-                        <h2 className="text-lg font-semibold text-[#252262]">Best Customer Support</h2>
-                        <span className=" text-sm text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                        <h2 className="text-lg font-semibold text-white">Best Customer Support</h2>
+                        <span className=" text-sm text-gray-400">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 
                         </span>
                       </div>
@@ -83,8 +83,8 @@ export default function Zigzag() {
                         </svg>
                       </div>
                       <div>
-                        <h2 className="text-lg font-semibold text-[#252262]">Secure</h2>
-                        <span className=" text-sm text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                        <h2 className="text-lg font-semibold text-white">Secure</h2>
+                        <span className=" text-sm text-gray-400">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 
                         </span>
                       </div>

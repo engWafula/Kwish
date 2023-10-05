@@ -100,8 +100,8 @@ export default function SignIn() {
           <div className="max-w-sm mx-auto grid mb-20 gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
 
             <div className="group flex flex-col items-center justify-center h-full p-4 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
-              <div className="text-center">
-                <BsTelephone size={35} />
+              <div className="mb-4 text-center flex flex-col items-center justify-center">
+                <BsTelephone size={35} color='#FE9C02' />
                 <h3 className="text-lg text-white mt-5">Telephone</h3> {/* Adjust the mt value to add more spacing */}
               </div>
               <blockquote className="text-lg text-gray-400 mt-5 text-center">
@@ -110,21 +110,22 @@ export default function SignIn() {
             </div>
 
 
-            <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
-              <div className="flex flex-col items-center justify-center h-full">
-                <div className="mb-4 text-center">
-                  <GoLocation size={35} />
+            <div className="group flex items-center justify-center flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200" >
+              <div className="flex flex-col items-center justify-center">
+                <div className="mb-4 text-center flex flex-col items-center justify-center">
+                  <GoLocation size={35} color='#FE9C02' />
                   <h3 className="text-lg text-white mt-5">Location</h3>
                 </div>
                 <blockquote className="text-lg text-gray-400">
-                  Kampala,Uganda
+                  Kampala, Uganda
                 </blockquote>
               </div>
             </div>
+
             <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
               <div className="flex flex-col items-center justify-center h-full">
-                <div className="mb-4 text-center">
-                  <AiOutlineMail size={35} />
+                <div className="mb-4 text-center flex flex-col items-center justify-center">
+                  <AiOutlineMail size={35} color='#FE9C02' />
                   <h3 className="text-lg text-white mt-5">Email</h3>
                 </div>
                 <blockquote className="text-lg text-gray-400">
@@ -150,7 +151,7 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Your Name"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-[#282264] outline-none focus-visible:shadow-none focus:border-[#282264]"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
                     id="name"
                   />
                 </div>
@@ -165,13 +166,13 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Your Email"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-[#282264] outline-none focus-visible:shadow-none focus:border-[#282264]"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
 
                   />
                 </div>
                 <div className="mb-6">
-                <label className="block text-white font-bold mb-2" htmlFor="name">
-                  Subject
+                  <label className="block text-white font-bold mb-2" htmlFor="name">
+                    Subject
                   </label>
                   <input
                     type="text"
@@ -180,12 +181,12 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Subject"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-[#282264] outline-none focus-visible:shadow-none focus:border-[#282264]"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
 
                   />
                 </div>
                 <div className="mb-3">
-                <label className="block text-white font-bold mb-2" htmlFor="name">
+                  <label className="block text-white font-bold mb-2" htmlFor="name">
                     Message
                   </label>
                   <textarea
@@ -194,7 +195,7 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Your Message"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-[#282264] outline-none focus-visible:shadow-none focus:border-[#282264]"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
 
                   />
                 </div>
@@ -212,8 +213,8 @@ export default function SignIn() {
                     height="500px"
                     scrolling="no"
                     title="map"
-                  />                 
-                   </ul>
+                  />
+                </ul>
               </div>
             </div>
           </div>

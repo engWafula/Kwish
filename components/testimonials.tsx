@@ -26,7 +26,7 @@ export default function Testimonials() {
             <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <BsWallet2 size={30} />
+                  <BsWallet2 size={30} color='#FE9C02' />
                   <h3 className="text-lg text-white mt-4">Kwish Wallet</h3>
                 </div>
               </div>
@@ -41,7 +41,7 @@ export default function Testimonials() {
             <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <BsCreditCard2Back size={30} />
+                  <BsCreditCard2Back size={30} color='#FE9C02'/>
                   <h3 className="text-lg text-white mt-4">Virtual Cards</h3>
                 </div>
               </div>
@@ -56,7 +56,7 @@ export default function Testimonials() {
             <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <GiTakeMyMoney size={30} />
+                  <GiTakeMyMoney size={30} color='#FE9C02' />
                   <h3 className="text-lg text-white mt-4">Loans</h3>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function Testimonials() {
 income earners in dire times.
                  </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <a className="text-[#252262] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Learn More</a>
+                <a className="text-white hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Learn More</a>
               </div>
             </div>
             {/* <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
