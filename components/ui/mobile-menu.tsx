@@ -36,6 +36,7 @@ export default function MobileMenu() {
     { title: "About Us", link: "/about" },
     { title: "Blog", link: "/blog" },
     { title: "Contact Us", link: "/contact" },
+    { title: "Career", link: "/career" }
   ];
 
   return (
@@ -67,7 +68,7 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-[#1C1B27] px-4 py-2">
         {menuItems.map((menuItem, index) => (
           <li key={index}>
             <Link
