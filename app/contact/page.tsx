@@ -151,7 +151,7 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Your Name"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#1C1B27] border border-white outline-none focus-visible:shadow-none focus:border-white"
                     id="name"
                   />
                 </div>
@@ -166,7 +166,7 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Your Email"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#1C1B27] border border-white outline-none focus-visible:shadow-none focus:border-white"
 
                   />
                 </div>
@@ -181,7 +181,7 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Subject"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#1C1B27] border border-white outline-none focus-visible:shadow-none focus:border-white"
 
                   />
                 </div>
@@ -195,7 +195,7 @@ export default function SignIn() {
                     onChange={handleChange}
                     placeholder="Your Message"
                     required
-                    className="w-full rounded py-3 px-4 text-white text-base bg-[#151719] border border-white outline-none focus-visible:shadow-none focus:border-white"
+                    className="w-full rounded py-3 px-4 text-white text-base bg-[#1C1B27] border border-white outline-none focus-visible:shadow-none focus:border-white"
 
                   />
                 </div>
