@@ -10,6 +10,8 @@ export default function Header() {
     { title: "About Us", link: "/about" },
     { title: "Blog", link: "/blog" },
     { title: "Contact Us", link: "/contact" },
+    { title: "Career", link: "/career" },
+
   ];
 
 

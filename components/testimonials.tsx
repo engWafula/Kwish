@@ -69,22 +69,6 @@ export default function Testimonials() {
                 <a className="text-white hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Learn More</a>
               </div>
             </div>
-            {/* <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
-              <div>
-                <div className="relative inline-flex flex-col mb-4">
-                  <GiTakeMyMoney size={30} />
-                  <h3 className="text-lg text-[#252262] mt-4">Money Remittance</h3>
-                </div>
-              </div>
-              <blockquote className="text-lg text-gray-400 grow">
-              With interest as low as 9%, Kwish Cash provides aDue to EAC regulations, it has since taken local and
-24/7 loan availation system to liable and ﬁxedinternational banks a multitude average of 4 to 5
-income earners in dire times.
-                 </blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <a className="text-[#252262] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Learn More</a>
-              </div>
-            </div> */}
           </div>
 
         </div>
