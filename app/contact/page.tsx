@@ -99,7 +99,7 @@ export default function SignIn() {
 
           <div className="max-w-sm mx-auto grid mb-20 gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
 
-            <div className="group flex flex-col items-center justify-center h-full p-4 bg-[#252262] border border-transparent hover:border-[#1C1B27] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
+            <div className="group flex flex-col items-center justify-center h-full p-4 bg-[#1C1B27] shadow-lg border border-transparent hover:border-[#1C1B27] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
               <div className="mb-4 text-center flex flex-col items-center justify-center">
                 <BsTelephone size={35} color='#FE9C02' />
                 <h3 className="text-lg text-white mt-5">Telephone</h3> {/* Adjust the mt value to add more spacing */}
@@ -110,7 +110,7 @@ export default function SignIn() {
             </div>
 
 
-            <div className="group flex items-center justify-center flex-col h-full p-6 bg-[#252262] border border-transparent hover:border-[#1C1B27] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200" >
+            <div className="group flex items-center justify-center flex-col h-full p-6 bg-[#1C1B27] shadow-lg border border-transparent hover:border-[#1C1B27] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200" >
               <div className="flex flex-col items-center justify-center">
                 <div className="mb-4 text-center flex flex-col items-center justify-center">
                   <GoLocation size={35} color='#FE9C02' />
@@ -122,7 +122,7 @@ export default function SignIn() {
               </div>
             </div>
 
-            <div className="group flex flex-col h-full p-6 bg-[#252262] border border-transparent hover:border-[#1C1B27] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
+            <div className="group flex flex-col h-full p-6 bg-[#1C1B27] shadow-lg border border-transparent hover:border-[#1C1B27] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
               <div className="flex flex-col items-center justify-center h-full">
                 <div className="mb-4 text-center flex flex-col items-center justify-center">
                   <AiOutlineMail size={35} color='#FE9C02' />

@@ -2,10 +2,10 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
-
+import { useRouter } from 'next/navigation'
 export default function MobileMenu() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
-
+  const router = useRouter()
   const trigger = useRef<HTMLButtonElement>(null)
   const mobileNav = useRef<HTMLDivElement>(null)
 
@@ -39,6 +39,12 @@ export default function MobileMenu() {
     { title: "Career", link: "/career" }
   ];
 
+
+  const handleNavigate = (link: string) => {
+    setMobileNavOpen(!mobileNavOpen)
+    router.push(link)
+  }
+
   return (
     <div className="md:hidden">
       {/* Hamburger button */}
@@ -71,12 +77,12 @@ export default function MobileMenu() {
         <ul className="bg-[#1C1B27] px-4 py-2">
         {menuItems.map((menuItem, index) => (
           <li key={index}>
-            <Link
-              href={menuItem.link}
+            <p
+              onClick={() => handleNavigate(menuItem.link)}
               className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
             >
               {menuItem.title}
-            </Link>
+            </p>
           </li>
         ))}
           <li>
