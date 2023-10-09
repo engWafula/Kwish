@@ -28,7 +28,7 @@ export default function Blog() {
 
                     <div className="max-w-sm mx-auto grid mb-20 gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
 
-                        <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
+                        <div className="group flex flex-col h-full p-6 bg-[#1C1B27] shadow-lg border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
                             <div className="mb-4">
                                 <div className="relative overflow-hidden group-hover:scale-105 group-hover:duration-300 group-hover:ease-in-out group-hover:shadow-lg">
                                     <Image
@@ -51,7 +51,7 @@ export default function Blog() {
                                 <a className="text-white hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Learn More</a>
                             </div>
                         </div>
-                        <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
+                        <div className="group flex flex-col h-full p-6 bg-[#1C1B27] shadow-lg  border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
                             <div className="mb-4">
                                 <div className="relative overflow-hidden group-hover:scale-105 group-hover:duration-300 group-hover:ease-in-out group-hover:shadow-lg">
                                     <Image
@@ -75,7 +75,7 @@ export default function Blog() {
                             </div>
                         </div>
 
-                        <div className="group flex flex-col h-full p-6 bg-gray-800 border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
+                        <div className="group flex flex-col h-full p-6 bg-[#1C1B27] shadow-lg border border-transparent hover:border-[#252262] rounded-lg transition-all" data-aos="fade-up" data-aos-delay="200">
                             <div className="mb-4">
                                 <div className="relative overflow-hidden group-hover:scale-105 group-hover:duration-300 group-hover:ease-in-out group-hover:shadow-lg">
                                     <Image

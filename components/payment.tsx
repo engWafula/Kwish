@@ -20,7 +20,7 @@ export default function Payment() {
                             {/* Image */}
                             <div className="max-w-xl flex space-x-[-10] md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
                                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={customer} width={540} height={405} alt="Features 03" />
-                                <Image className=" hidden md:block lg:block hover:animate-bounce-slow  max-w-full mx-auto md:max-w-none h-auto" src={pay} width={250} alt="Features 03" />
+                                <Image className="image-bounce hidden md:block lg:block hover:animate-bounce-slow  max-w-full mx-auto md:max-w-none h-auto" src={pay} width={250} alt="Features 03" />
                             </div>
 
                             {/* <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">

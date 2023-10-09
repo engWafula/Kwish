@@ -92,8 +92,11 @@ export default function Career() {
                         <div className="max-w-xl flex flex-col mb-10  md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
                             <Image style={{ borderRadius: '16%' }}
                                 className="max-w-full mx-auto md:max-w-none rounded-lg h-auto relative  -mb-10 mr-10" src={office} width={540} height={405} alt="Features 02" />
-                            <div className=" hidden md:block lg:block relative flex items-end -mt-10 ml-auto">
-                                <Image style={{ borderRadius: '12%' }} className=" hover:animate-bounce max-w-full mx-auto md:max-w-none h-auto  z-20" src={office1} width={400} height={300} alt="Features 02" />
+                            <div className=" image-bounce hidden md:block lg:block relative flex items-end -mt-10 ml-auto">
+                                <Image style={{ 
+                                    borderRadius: '12%',
+
+                                     }} className="max-w-full mx-auto md:max-w-none h-auto  z-20" src={office1} width={400} height={300} alt="Features 02" />
                             </div>
                         </div>
 
