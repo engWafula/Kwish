@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-import logo from '@/public/images/logo.png'
 import Image from 'next/image'
+import logo from '@/public/images/logo.png'
 import { FaXTwitter } from "react-icons/fa6"
-
+import applestore from "@/public/images/appstore_rrkppm.png"
+import playstore from "@/public/images/playstore_dhgusr.png"
 
 
 export default function Footer() {
@@ -70,24 +71,8 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Company</h6>
-                {/* <ul>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                </ul> */}
+                <Image src={applestore} alt='applestore' width={150}/>
+                <Image src={playstore} alt='playstore' width={150}/>
               </div>
 
             </div>
