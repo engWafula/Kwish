@@ -1,10 +1,11 @@
 import card from '@/public/images/card.png'
 import ModalVideo from '@/components/modal-video'
+import { MdOutlineAttachMoney } from 'react-icons/md'
 
 export default function Hero() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+      <div className="max-w-6xl flex items-center flex-col  mx-auto px-4 sm:px-6 relative">
 
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16 flex flex-col md:flex-row items-center">
@@ -39,7 +40,15 @@ export default function Hero() {
           </div>
 
         </div>
+        <div data-aos="fade-up" data-aos-delay="600" className='hidden md:block lg:block -mt-20 mb-10'>
 
+          <a className="btn text-white text-xl bg-gray-700 hover:text-[#252262] hover:bg-gray-800 w-full sm:w-auto sm:ml-4 rounded-full" href="/">
+            <div className='hover:-translate-y-1 transition ease-in-out mr-5 flex p-2 justify-center items-center text-white bg-[#252262] hover:text-gray-100 hover:bg-[#252262] rounded-full transition duration-150 ease-in-out'>
+              <MdOutlineAttachMoney size={30} />
+
+            </div>
+            EASY PAYMENT</a>
+        </div>
       </div>
     </section>
 
