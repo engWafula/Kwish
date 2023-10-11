@@ -1,10 +1,14 @@
+"use client"
+
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import logo from '@/public/images/logo.png'
 import Image from 'next/image';
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
-
+  const pathname = usePathname()
+  console.log(pathname,"hffgfgfggfgf")
   const menuItems = [
     { title: "Home", link: "/" },
     { title: "About Us", link: "/about" },
@@ -35,8 +39,7 @@ export default function Header() {
           <li key={index}>
             <Link
               href={menuItem.link}
-              className="font-medium text- hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-            >
+              className={`font-medium ${pathname === menuItem.link ? 'text-[#FF9D01]' : ''}  px-4 py-3 flex items-center transition duration-150 ease-in-out`}            >
               {menuItem.title}
             </Link>
           </li>
